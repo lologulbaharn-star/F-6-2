@@ -1,0 +1,45 @@
+.hero {
+  background: rgba(245, 247, 250, 1);
+  padding: 80px 0;
+}
+
+.content {
+  display: grid;
+  gap: 40px;
+}
+
+.text h1 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.text span {
+  color: rgba(76, 175, 79, 1);
+}
+
+.text p {
+  margin: 16px 0 24px;
+  color: rgba(113, 113, 113, 1);
+}
+
+.text button {
+  background: rgba(76, 175, 79, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 14px 32px;
+  border-radius: 6px;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .text h1 {
+    font-size: 64px;
+  }
+}

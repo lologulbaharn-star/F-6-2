@@ -1,0 +1,17 @@
+.clients {
+  padding: 64px 0;
+  text-align: center;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .logos {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

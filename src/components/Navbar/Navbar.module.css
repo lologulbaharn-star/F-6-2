@@ -1,0 +1,45 @@
+.header {
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(241, 241, 241, 1);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.links {
+  display: none;
+  gap: 32px;
+}
+
+.links a {
+  font-size: 14px;
+  color: rgba(77, 77, 77, 1);
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.login {
+  background: none;
+  border: none;
+  color: rgba(76, 175, 79, 1);
+}
+
+.signup {
+  background: rgba(76, 175, 79, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+@media (min-width: 1024px) {
+  .links {
+    display: flex;
+  }
+}
