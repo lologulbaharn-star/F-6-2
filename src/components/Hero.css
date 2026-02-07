@@ -1,0 +1,10 @@
+.hero-section { background-color: var(--silver); padding: 96px 0; }
+.hero-wrapper { display: flex; align-items: center; justify-content: space-between; }
+.hero-text h1 { font-size: 64px; font-weight: 600; line-height: 76px; }
+.hero-text h1 span { color: var(--primary); }
+.hero-text p { color: var(--gray-text); margin: 16px 0 32px; }
+
+@media (max-width: 768px) {
+  .hero-wrapper { flex-direction: column-reverse; text-align: center; }
+  .hero-image img { width: 100%; max-width: 300px; margin-bottom: 30px; }
+}

@@ -1,0 +1,54 @@
+.pixelgrade-section {
+    padding: 52px 0;
+    background-color: var(--white); /* خلفية بيضاء لتمييزه عن الـ Hero */
+}
+
+.pixelgrade-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.pixelgrade-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.pixelgrade-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pixelgrade-text {
+    flex: 1.2; /* النص يأخذ مساحة أكبر قليلاً */
+}
+
+.pixelgrade-text h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 16px;
+    line-height: 44px;
+}
+
+.pixelgrade-text p {
+    font-size: 14px;
+    color: var(--gray-text);
+    margin-bottom: 32px;
+    line-height: 20px;
+    max-width: 600px;
+}
+
+/* التجاوب مع الموبايل */
+@media (max-width: 768px) {
+    .pixelgrade-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .pixelgrade-text h2 {
+        font-size: 28px;
+    }
+}

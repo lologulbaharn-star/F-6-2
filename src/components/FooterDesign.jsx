@@ -1,20 +1,8 @@
-import FooterImage from '@/assets/illustrations/footer-design.svg?react';
-
-const FooterDesign = () => {
-  return (
-    <section>
-      <div className="container" style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
-        <FooterImage width={300} />
-        <div>
-          <h2>How to design your site footer like we did</h2>
-          <p style={{ margin: '20px 0' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <button>Learn More</button>
-        </div>
-      </div>
-    </section>
-  );
-};
-
+import React from 'react';
+const FooterDesign = () => (
+  <section style={{ backgroundColor: 'var(--silver)', padding: '64px 0', textAlign: 'center' }}>
+    <h2 style={{ fontSize: '64px', color: '#263238', marginBottom: '32px' }}>Pellentesque suscipit <br/> fringilla libero eu.</h2>
+    <button className="btn-primary">Get a Demo →</button>
+  </section>
+);
 export default FooterDesign;

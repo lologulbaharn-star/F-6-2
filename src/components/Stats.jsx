@@ -1,21 +1,23 @@
+import React from "react";
+import localBizImg from "../assets/illustrations/local-business.svg";
+
 const Stats = () => {
   return (
-    <section style={{ background: '#f5f7fa' }}>
-      <div className="container" style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
-        <Stat number="2,245,341" text="Members" />
-        <Stat number="46,328" text="Clubs" />
-        <Stat number="828,867" text="Event Bookings" />
-        <Stat number="1,926,436" text="Payments" />
+    <section style={{ backgroundColor: 'var(--silver)', padding: '64px 0' }}>
+      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div>
+          <h2 style={{ fontSize: '36px' }}>Helping a local <br /><span style={{ color: 'var(--primary)' }}>business reinvent itself</span></h2>
+          <p>We reached here with our hard work and dedication</p>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px' }}>
+          <div className="stat-item"><h3>2,245,341</h3><p>Members</p></div>
+          <div className="stat-item"><h3>46,328</h3><p>Clubs</p></div>
+          <div className="stat-item"><h3>828,867</h3><p>Event Bookings</p></div>
+          <div className="stat-item"><h3>1,926,436</h3><p>Payments</p></div>
+        </div>
       </div>
     </section>
   );
 };
-
-const Stat = ({ number, text }) => (
-  <div>
-    <h3 style={{ color: '#4caf4f' }}>{number}</h3>
-    <p>{text}</p>
-  </div>
-);
 
 export default Stats;

@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+}
+.logo { display: flex; align-items: center; gap: 8px; }
+.logo span { font-size: 24px; font-weight: 700; color: #263238; }
+.nav-links { display: flex; list-style: none; gap: 30px; }
+.nav-links a { text-decoration: none; color: var(--gray-900); font-size: 14px; }
+.nav-actions { display: flex; gap: 15px; }
+.btn-login { background: none; border: none; color: var(--primary); cursor: pointer; }
+
+@media (max-width: 992px) {
+  .nav-links { display: none; } /* تحويلها لـ Hamburger menu لاحقاً */
+}

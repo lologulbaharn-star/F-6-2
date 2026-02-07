@@ -1,0 +1,31 @@
+.clients { padding: 40px 0; text-align: center; }
+.section-title h2 { font-size: 36px; margin-bottom: 8px; }
+.section-title p { color: var(--gray-text); margin-bottom: 32px; }
+.client-logos { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+.client-logos img { height: 40px; }
+
+.clients-section {
+    padding: 40px 0;
+    text-align: center;
+}
+.clients-header h2 {
+    font-size: 36px;
+    color: var(--secondary);
+    margin-bottom: 8px;
+}
+.clients-header p {
+    color: var(--gray-text);
+    margin-bottom: 32px;
+}
+.clients-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.clients-logos img {
+    height: 48px;
+    filter: grayscale(1); /* لجعل الشعارات رمادية كما في التصميم */
+    opacity: 0.6;
+}
