@@ -1,6 +1,6 @@
 .pixelgrade-section {
     padding: 52px 0;
-    background-color: var(--white); /* خلفية بيضاء لتمييزه عن الـ Hero */
+    background-color: var(--white); 
 }
 
 .pixelgrade-content {
@@ -22,7 +22,7 @@
 }
 
 .pixelgrade-text {
-    flex: 1.2; /* النص يأخذ مساحة أكبر قليلاً */
+    flex: 1.2; 
 }
 
 .pixelgrade-text h2 {
@@ -41,7 +41,6 @@
     max-width: 600px;
 }
 
-/* التجاوب مع الموبايل */
 @media (max-width: 768px) {
     .pixelgrade-content {
         flex-direction: column;

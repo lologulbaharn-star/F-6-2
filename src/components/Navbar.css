@@ -12,5 +12,5 @@
 .btn-login { background: none; border: none; color: var(--primary); cursor: pointer; }
 
 @media (max-width: 992px) {
-  .nav-links { display: none; } /* تحويلها لـ Hamburger menu لاحقاً */
+  .nav-links { display: none; } 
 }

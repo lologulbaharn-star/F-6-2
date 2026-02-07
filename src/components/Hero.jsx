@@ -1,5 +1,4 @@
 import React from 'react';
-// جرب تغيير هذه السطر تحديداً
 import heroImg from '../assets/illustrations/hero.svg'; 
 
 const Hero = () => {

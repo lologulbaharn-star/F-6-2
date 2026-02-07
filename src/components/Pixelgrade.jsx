@@ -1,5 +1,5 @@
 import React from "react";
-import pixelgradeImg from "../assets/illustrations/pixelgrade.svg"; // تم تصحيح الامتداد
+import pixelgradeImg from "../assets/illustrations/pixelgrade.svg";
 
 const Pixelgrade = () => {
   return (
